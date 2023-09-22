@@ -1,0 +1,100 @@
+/* Global CSS styles (App.css) */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Center content in the middle of the page */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Lato', sans-serif;
+}
+
+/* CreatePost Component CSS */
+.create-post-form {
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.create-post-form label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.create-post-form input[type='text'],
+.create-post-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+}
+
+.btn_add {
+  width: 30%;
+  height: 40px;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  background-color: #59a2ad;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn_add:hover {
+  opacity: 0.9;
+}
+
+/* PostList Component CSS */
+.post-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.post-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 650px;
+}
+
+.post-item h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-item p {
+  font-size: 18px;
+}

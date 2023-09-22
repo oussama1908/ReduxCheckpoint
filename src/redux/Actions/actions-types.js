@@ -1,0 +1,5 @@
+export const ADD_POST = 'ADD_POST';
+export const REMOVE_POST = 'REMOVE_POST';
+export const UPDATE_POST_TITLE = 'UPDATE_POST_TITLE';
+export const TOGGLE_TASK_STATUS = 'TOGGLE_TASK_STATUS';
+export const FILTER_TASKS = 'FILTER_TASKS';
